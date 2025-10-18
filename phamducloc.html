@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Phạm Đức Lộc</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Phạm Đức Lộc</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Trang Chủ</a></li>
+        <li><a href="#about">Giới Thiệu</a></li>
+        <li><a href="#works">Công Việc</a></li>
+        <li><a href="#projects">Hoạt Động</a></li>
+        <li><a href="#contact">Liên Hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Trang chủ -->
+  <section id="home" class="hero">
+  <div class="hero-content">
+    <div class="text-box">
+      <h2>Xin chào, tôi là <span>Phạm Đức Lộc</span></h2>
+      <p>Một nhà thiết kế & lập trình viên trẻ đầy nhiệt huyết — tôi biến ý tưởng thành trải nghiệm số sống động, đẹp mắt và đậm cá tính.</p>
+      <a href="#about" class="btn">Tìm hiểu thêm</a>
+    </div>
+    <div class="photo">
+      <img src="your-photo.jpg" alt="Ảnh cá nhân">
+    </div>
+  </div>
+</section>
+
+
+  <!-- Giới thiệu -->
+  <section id="about" class="fade-in">
+    <h2>Giới Thiệu Về Tôi</h2>
+    <div class="tabs">
+      <input type="radio" id="tab1" name="tab" checked>
+      <label for="tab1">Kỹ năng</label>
+
+      <input type="radio" id="tab2" name="tab">
+      <label for="tab2">Kinh nghiệm</label>
+
+      <input type="radio" id="tab3" name="tab">
+      <label for="tab3">Học vấn</label>
+
+      <input type="radio" id="tab4" name="tab">
+      <label for="tab4">Sở thích</label>
+
+      <input type="radio" id="tab5" name="tab">
+      <label for="tab5">Sinh nhật</label>
+
+      <input type="radio" id="tab6" name="tab">
+      <label for="tab6">Chứng chỉ</label>
+
+      <!-- KỸ NĂNG -->
+      <div class="tab-content" id="content1">
+        <div class="skill">
+          <span>HTML, CSS, JavaScript</span>
+          <div class="progress-bar"><div class="progress" style="--percent:75%">75%</div></div>
+        </div>
+        <div class="skill">
+          <span> C/C++</span>
+          <div class="progress-bar"><div class="progress" style="--percent:70%">70%</div></div>
+        </div>
+        <div class="skill">
+          <span>MySQL</span>
+          <div class="progress-bar"><div class="progress" style="--percent:60%">60%</div></div>
+        </div>
+        <div class="skill">
+          <span>english</span>
+          <div class="progress-bar"><div class="progress" style="--percent:50%">50%</div></div>
+        </div>
+      </div>
+
+      <div class="tab-content" id="content2">
+        <p><strong>Kinh nghiệm:</strong> 2 năm thiết kế giao diện website và ứng dụng di động. Từng tham gia nhiều dự án freelance.</p>
+      </div>
+      <div class="tab-content" id="content3">
+        <p><strong>Học vấn:</strong> Sinh viên Trường Đại học Bình Dương – chuyên ngành Công nghệ thông tin.</p>
+      </div>
+      <div class="tab-content" id="content4">
+        <p><strong>Sở thích:</strong> Thiết kế, code, nghe nhạc, chơi game và khám phá công nghệ mới.</p>
+      </div>
+      <div class="tab-content" id="content5">
+        <p><strong>Sinh nhật:</strong> 04 / 06 / 2006</p>
+      </div>
+      <div class="tab-content" id="content6">
+        <p><strong>Chứng chỉ:</strong> Thiết kế UI/UX cơ bản, HTML5 & CSS3 nâng cao.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Công việc -->
+  <section id="works" class="fade-in">
+    <h2>Công Việc Của Tôi</h2>
+    <div class="work-cards">
+      <div class="card">
+        <h3>Thiết Kế Web</h3>
+        <p>Tôi thiết kế các trang web hiện đại, thân thiện và phản hồi tốt trên mọi thiết bị.</p>
+      </div>
+      <div class="card">
+        <h3>Thiết Kế Giao Diện</h3>
+        <p>Tôi tạo ra các giao diện trực quan, đảm bảo trải nghiệm mượt mà.</p>
+      </div>
+      <div class="card">
+        <h3>Thiết Kế Ứng Dụng</h3>
+        <p>Tôi thiết kế app di động tập trung vào trải nghiệm liền mạch.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hoạt động -->
+  <section id="projects" class="fade-in">
+    <h2>Hoạt Động Của Tôi</h2>
+    <div class="project-grid">
+      <img src="project1.jpg" alt="Hoạt động 1">
+      <img src="project2.jpg" alt="Hoạt động 2">
+      <img src="project3.jpg" alt="Hoạt động 3">
+    </div>
+  </section>
+
+  <!-- Liên hệ -->
+  <section id="contact" class="fade-in">
+    <h2>Liên Hệ Với Tôi</h2>
+    <div class="contact-container">
+      <div class="info">
+        <p>📧 <strong>Email:</strong> 24050030@student.bdu.edu.vn</p>
+        <p>📞 <strong>SĐT:</strong> 0348 335 039</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/share/17F6ihMvRa/" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a>
+          <a href="https://www.instagram.com/pdl46206?igsh=MTd2azEyamtoZDIydQ==" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+          <a href="https://www.tiktok.com/@pdlvn0406?_t=ZS-90Xvb7ZUPZ3&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+        </div>
+      </div>
+
+      <form>
+        <input type="text" placeholder="Tên của bạn">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Lời nhắn..."></textarea>
+        <button type="submit" class="btn">Gửi</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Phạm Đức Lộc. All rights reserved.</p>
+  </footer>
+</body>
+</html>
